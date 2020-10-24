@@ -2,7 +2,8 @@
 body {
     background-color: rgb(25, 25, 25);
     color: white;
-    margin: 0px 5vw;
+    margin: 0px auto;
+    max-width: 1300px;
 }
 
 a:link {
