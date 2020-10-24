@@ -2,8 +2,9 @@
 body {
     background-color: rgb(25, 25, 25);
     color: white;
-    margin: 0px auto;
+    margin: 0px auto;   /* auto looks at max-width */
     max-width: 1300px;
+    padding: 1em;   /* mostly to look good on mobile */
 }
 
 a:link {
