@@ -3,7 +3,7 @@ body {
     background-color: rgb(25, 25, 25);
     color: white;
     margin: 0px auto;   /* auto looks at max-width */
-    max-width: 1300px;
+    max-width: 1000px;
     padding: 1em;   /* mostly to look good on mobile */
 }
 
@@ -17,5 +17,4 @@ a:visited {
 
 .showcase {
     display: grid;
-    gap: 10px;
 }
