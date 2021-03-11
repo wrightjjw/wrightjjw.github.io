@@ -1,13 +1,5 @@
-<!-- Copyright (C) 2020 Josh Wright -->
-<html lang="en">
-
-<head>
-    <title>Tetris Reborn</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="tetris.css">
-</head>
-
-<body>
+<template>
+    <div>
     <h1>Operation Catapult: Tetris Reborn</h1>
     <h2><a href="https://github.com/wrightjjw/tetris">github.com/wrightjjw/tetris</a></h2>
     <p>
@@ -36,9 +28,9 @@
         I tended to work more on game logic than anything else.
     </p>
     <div class="showcase">
-        <div id="img1"> <img src="start.png" width="300px"> </div>
-        <div id="img2"> <img src="game.png" width="300px"> </div>
-        <div id="img3"> <img src="score.png" width="300px"> </div>
+        <div id="img1"> <img src="@/assets/tetris/start.png" width="300px"> </div>
+        <div id="img2"> <img src="@/assets/tetris/game.png" width="300px"> </div>
+        <div id="img3"> <img src="@/assets/tetris/score.png" width="300px"> </div>
     </div>
     <p>
         We had a lot of fun working on this project.
@@ -58,6 +50,26 @@
         To this day, I am still very proud of this project.
         And it still runs on modern Python 3 and Pygame!
     </p>
-</body>
+</div>
+</template>
 
-</html>
+<style>
+#img1 {
+    grid-column: 1;
+    grid-row: 0;
+}
+
+#img2 {
+    grid-column: 2;
+    grid-row: 0;
+}
+
+#img3 {
+    grid-column: 3;
+    grid-row: 0;
+}
+
+.showcase {
+    display: grid;
+}
+</style>
