@@ -15,6 +15,10 @@
         I'm also planning on adding information related to more of my hobbies as they develop,
         like music production and competitive Pokémon VGC.
     </p>
+    <p>
+      Things are especially buggy right now, especially with browser history!
+      Trying to find a way to fix all the 404's.
+    </p>
   </div>
 </template>
 
